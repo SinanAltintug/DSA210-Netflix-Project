@@ -1,4 +1,4 @@
-# DSA 210 Term Project: Analyzing Factors Influencing IMDb and Rotten Tomatoes Scores of Netflix Contents
+# DSA 210 Term Project: Analyzing Factors Influencing IMDb and Rotten Tomatoes Ratings of Netflix Content
 
 ## Project Overview
 The aim of this project is to analyze and compare the impact of various factors on the IMDb and Rotten Tomatoes scores of Netflix films and TV shows. By manually curating a dataset of approximately 200 titles, we will investigate how aspects such as language, content genre, content type, trailer popularity, watch time, budget, and production year (etc.) influence audience and critic ratings.
