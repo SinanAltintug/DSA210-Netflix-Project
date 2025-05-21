@@ -1,4 +1,4 @@
-# DSA 210 Term Project: Analyzing Factors Influencing IMDb and Rotten Tomatoes Ratings of Netflix Content
+# DSA 210 Term Project: Analyzing Factors Influencing IMDb, Rotten Tomatoes and MetaCritic Ratings of Netflix Content
 
 ## Project Overview
 The aim of this project is to analyze and compare the impact of various factors on the IMDb and Rotten Tomatoes scores of Netflix films and TV shows. By manually curating a dataset of approximately 200 titles, we will investigate how aspects such as language, content genre, content type, trailer popularity, watch time, budget, and production year (etc.) influence audience and critic ratings.
@@ -21,7 +21,9 @@ The dataset for this project will be manually compiled by selecting around 200 N
 - **Google Trends**: To measure search interest for specific movies and TV shows.
 
 This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.
--[Dataset Link](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+-[Dataset Link](https://www.kaggle.com/datasets/thedevastator/rotten-tomatoes-top-movies-ratings-and-technical)
+-[Dataset Link](https://www.kaggle.com/datasets/ashishgup/netflix-rotten-tomatoes-metacritic-imdb)
+-[Dataset Link](https://www.kaggle.com/datasets/danielgrijalvas/movies?resource=download)
 
 ## Tools & Technologies Used
 - Programming Language: Python
@@ -37,7 +39,7 @@ Project structure is as following;
 
 1. **Data Collection & Cleaning**:
 
-- Manual Data Compilation: 200+ Netflix titles selected manually.
+- Manual Data Compilation: Used 3 different datasets which contains more than 20.000 movies and tv shows.
 
 - Handling Missing Values: Filling in missing data from external APIs.
 
@@ -48,7 +50,7 @@ Project structure is as following;
 
 - Netflix Originals vs. Licensed Content: Comparing ratings and watch time between original and non-original content.
 
-- Trailer Views vs. IMDb Ratings: Investigating if highly viewed trailers correlate with higher IMDb scores.
+- Producing company vs. IMDb Ratings: Investigating if highly viewed trailers correlate with higher IMDb scores.
 
 - Watch Time vs. Content Type: Analyzing whether films or TV shows have higher engagement levels.
 
@@ -56,12 +58,12 @@ Project structure is as following;
 
 - Film Duration & IMDb Scores: Evaluating whether longer films have better ratings.
 
-- Actor & Director Influence: Investigating if films with well-known actors or directors receive higher ratings.
+- Director Influence: Investigating if films with well-known actors or directors receive higher ratings.
 
 - Genre-Based Rating Differences: Analyzing which genres generally receive better scores.
 
 3. **Machine Learning application**:
-- regression models could be applied to predict IMDb and Rotten Tomatoes scores based on multiple factors, including trailer views, language, production year, and content type.
+- regression models could be applied to predict IMDb and Rotten Tomatoes scores based on multiple factors, including director, language, production year, and content type.
 
 ## Expected Findings
 - Certain languages and genres may consistently perform better in audience and critic ratings.
