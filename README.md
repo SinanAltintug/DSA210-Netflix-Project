@@ -1,13 +1,13 @@
 # DSA 210 Term Project: Analyzing Factors Influencing IMDb, Rotten Tomatoes and MetaCritic Ratings of Netflix Content
 
 ## Project Overview
-The aim of this project is to analyze and compare the impact of various factors on the IMDb and Rotten Tomatoes scores of Netflix films and TV shows. By manually curating a dataset of approximately 200 titles, we will investigate how aspects such as language, content genre, content type, trailer popularity, watch time, budget, and production year (etc.) influence audience and critic ratings.
+The aim of this project is to analyze and compare the impact of various factors on the IMDb, Rotten Tomatoes and MetaCritic scores of Netflix films and TV shows. By using 3 large datasets in order to achieve various features (such as budget, unique scores and gross), we will investigate how aspects such as language, content genre, content type, director, watch time, budget, and production year (etc.) influence audience and critic ratings.
 
 ## Motivation
 - **Personal Interest**
   Understanding the factors that contribute to a movie’s or TV show’s success is a fascinating topic in media analytics. Streaming platforms like Netflix provide a massive selection of content, and exploring which attributes correlate with higher audience engagement and ratings aligns with my interest in data-driven decision-making.
 - **Application**
-  This project bridges media analytics and data science. By integrating data from multiple sources, we aim to uncover key predictors of high IMDb and Rotten Tomatoes scores, providing valuable insights for both content creators and streaming platforms.
+  This project bridges media analytics and data science. By integrating data from multiple sources, we aim to uncover key predictors of high IMDb, Rotten Tomatoes and Metacritic scores, providing valuable insights for both content creators and streaming platforms.
 
 ## Data Source
 The dataset for this project will be manually compiled by selecting around 200 Netflix films and TV shows based on a diverse range of characteristics. Additional data will be incorporated from external sources such as:
@@ -16,9 +16,9 @@ The dataset for this project will be manually compiled by selecting around 200 N
 
 - **Rotten Tomatoes API**: For critic reviews and audience scores.
 
-- **YouTube API**: To extract trailer view counts for selected titles.
+- **Keggke** : For finding large, ready-to-use datasets.
 
-- **Google Trends**: To measure search interest for specific movies and TV shows.
+
 
 This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.
 -[Dataset Link](https://www.kaggle.com/datasets/thedevastator/rotten-tomatoes-top-movies-ratings-and-technical)
@@ -68,20 +68,16 @@ Project structure is as following;
 ## Expected Findings
 - Certain languages and genres may consistently perform better in audience and critic ratings.
 
-- High trailer view counts might correlate with stronger IMDb scores, reflecting audience anticipation.
-
-- Netflix Originals may have different rating trends compared to licensed content.
-
 - Production year and film duration may influence ratings significantly.
 
-- Actor and director reputation might play a role in the perceived quality of content.
+- Director reputation might play a role in the perceived quality of content.
+
+- Budget may be a critical aspect regarding to user ratings.
 
 ## Challenges and Future Improvements
-- **Dataset Size Constraints**: Since the dataset is manually compiled, the sample size will be limited compared to large-scale, publicly available datasets.
+- **Dataset Size Constraints**: Missing values can be misleading since we are dealing with very large datasets.
 
 - **Data Gaps**: Some attributes, such as exact watch time or regional viewership statistics, may not be readily available.
-
-- **Selection Bias**: As the films and shows are selected manually, there is a possibility of unintentional bias in the dataset.
 
 - **Potential Expansions**: Future iterations of this project could involve increasing the dataset size and incorporating additional metrics, such as streaming hours from Netflix (if accessible), to provide deeper insights into audience 
  preferences and content engagement.
